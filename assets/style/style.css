@@ -85,7 +85,6 @@ border-radius: 10px;
 padding: 20px;
 color: black;
     height: 42px;
- background: #05080D;
  width: 100%;
  max-width: 1410px;
 }
@@ -94,4 +93,10 @@ color: black;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+}
+
+.container1{
+    background-color: black;
+    width: 100%;
+    max-width: 15025x;
 }

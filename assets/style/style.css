@@ -32,6 +32,58 @@ p{
 .container{
     padding-left: 60px;
     padding-right: 60px;
+    width: 100%;
+}
+
+
+.sky{
+    background-color: rgb(9, 29, 77);
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.text h5{
+    color: white;
+    font-weight: 700;
+}
+
+.text p{
+    color: white;
+    font-weight: 400;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+.book {
+height: 60px;
+width: 200px;
+background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
+border-radius: 10px;
+padding: 20px;
+color: black;
     height: 42px;
  background: #05080D;
  width: 100%;

@@ -29,8 +29,17 @@ h6{
 p{
     font-size: 14px;
 }
-
 .container{
     padding-left: 60px;
     padding-right: 60px;
+    height: 42px;
+ background: #05080D;
+ width: 100%;
+ max-width: 1410px;
+}
+.teksti{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }

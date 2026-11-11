@@ -100,3 +100,45 @@ color: black;
     width: 100%;
     max-width: 15025x;
 }
+
+
+.every{
+background: linear-gradient(90deg, #08192D 20.19%, rgba(5, 8, 13, 0.8) 100%);
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.highlight{
+    color: #C7A45A;
+}
+
+.every h1{
+    color: white;
+}
+
+.complete, .personal{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    padding: 30px 0px 0px 0px;
+}
+
+.flight, .airport, .private, .luxury{
+    height: 129px;
+    width: 286px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color:rgba(255, 255, 255, 0.07);
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    background: radial-gradient(circle, #C7A45A 15%, rgba(199, 164, 90, 0.244) 75%);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+

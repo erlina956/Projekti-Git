@@ -90,8 +90,113 @@ color: black;
  max-width: 1410px;
 }
 .teksti{
-    color: white;
+    color:white;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+}
+
+
+
+
+.plane{
+ background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+padding: 30px;
+margin: 0 auto;
+width: 100%;
+
+}
+
+.test {
+
+background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+
+}
+.avionet {
+    max-width: 1100px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.avionet .titulli1 {
+    color: #c9a45b;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.avionet h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.avionet .avion {
+    display: flex;
+    flex-direction: row;
+background: #1D232D;
+
+
+    border-radius: 15px;
+    overflow: hidden;
+    height: 195px;
+    margin-bottom: 15px;
+    
+}
+
+.avionet .avion img {
+    width: 47%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.avionet .teksti {
+    display: block;
+    padding: 15px;
+    flex: 1;
+    min-width: 0;
+}
+
+.avionet .lloji {
+    color: #c9a45b;
+    font-size: 8px;
+    margin-bottom: 6px;
+}
+
+.avionet .teksti h2 {
+    font-size: 17px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.avionet .teksti p {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 3px;
+    line-height: 1.3;
+}
+
+.avionet .teksti span {
+    color: #d2ad64;
+    display: inline-block;
+    width: 95px;
+}
+
+.avionet .pershkrimi {
+    color: #c5c9d0;
+    margin-top: 8px;
+}
+
+.avionet .teksti button {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #343d49;
+    color: white;
+    border: 1px solid #a88a50;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 9px;
+    margin-top: 5px;
+    cursor: pointer;
 }

@@ -1,102 +1,176 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
- h2{
+
+h2 {
     font-size: 34px;
- }
- h3{
+}
+
+h3 {
     font-size: 30px;
- }
+}
 
- h4{
+h4 {
     font-size: 26px;
- }
+}
 
- h5{
+h5 {
     font-size: 20px;
- }
+}
 
-h6{
+h6 {
     font-size: 16px;
 }
 
-p{
+p {
     font-size: 14px;
 }
-.container{
+
+.container {
     padding-left: 60px;
     padding-right: 60px;
     width: 100%;
 }
 
 
-.sky{
+.sky {
     background-color: rgb(9, 29, 77);
     height: 80px;
     display: flex;
     align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
 }
 
-.text h5{
+.text h5 {
     color: white;
     font-weight: 700;
 }
 
-.text p{
+.text p {
     color: white;
     font-weight: 400;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.menu a{
+.menu a {
     color: white;
     text-decoration: none;
 }
 
-.login a{
+.login a {
     color: white;
     text-decoration: none;
 }
 
 .book {
-height: 60px;
-width: 200px;
-background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
-border-radius: 10px;
-padding: 20px;
-color: black;
+    height: 60px;
+    width: 200px;
+    background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
     height: 42px;
- width: 100%;
- max-width: 1410px;
+    width: 100%;
+    max-width: 1410px;
 }
-.teksti{
+
+.teksti {
     color: white;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 }
 
-.container1{
+.container1 {
     background-color: black;
     width: 100%;
     max-width: 15025x;
+}
+
+
+.destinations {
+    background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+
+}
+
+.map {
+    max-width: 1120px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.subtitle {
+    color: #d8b85b;
+    font-size: 9px;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+}
+
+.info {
+    grid-row: span 2;
+    background: linear-gradient(180deg, rgba(20, 34, 53, 0.941176) 0%, rgba(20, 34, 53, 0.941176) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.info p {
+    font-size: 10px;
+    line-height: 1.6;
+    color: white;
+}
+
+.info h2 {
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 8px 0;
+    color: white;
+}
+
+.card {
+    background-color: #171e27;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    font-size: 11px;
+    padding: 9px;
+    color: white;
 }

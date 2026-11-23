@@ -180,7 +180,6 @@ p {
     padding-top: 10px;
 }
 
-.container1 {
 .plane{
  background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
 padding: 30px;
@@ -359,6 +358,7 @@ h1 {
 
 .news{
 background: #0A121E;
+}
 .destinations {
     background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
 

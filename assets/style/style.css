@@ -356,6 +356,9 @@ h1 {
 }
 
 
+
+.news{
+background: #0A121E;
 .destinations {
     background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
 
@@ -496,6 +499,54 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
+.latest p{
+    color: #C7A45A;
+}
+
+.latest h1{
+    color: white;
+}
+
+.box{
+    display: flex;
+justify-content: center;
+align-items: center;
+max-width: 1300px;
+gap: 60px;
+padding-top: 25px;
+
+}
+
+.box1 {
+    background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 20px;
+}
+
+.box1 img{
+    height: 222px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box1 p{
+    color: #C7A45A;
+        padding-left: 20px;
+        padding-top: 20px;
+}
+
+.box1 h4{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.box1 .paragraf{
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 20px; 
+}
 .content{
     display: flex;
     justify-content: space-between;

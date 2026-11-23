@@ -35,7 +35,7 @@ p{
 }
 
  
-box{
+.box{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -194,6 +194,7 @@ background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
     color: white;
     font-family: Arial, sans-serif;
     margin: 0 auto;
+}
 .avionet {
     width: 85%;
     margin: 30px auto;

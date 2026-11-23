@@ -1,35 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
- h2{
+
+h2 {
     font-size: 34px;
- }
- h3{
+}
+
+h3 {
     font-size: 30px;
- }
+}
 
- h4{
+h4 {
     font-size: 26px;
- }
+}
 
- h5{
+h5 {
     font-size: 20px;
- }
+}
 
-h6{
+h6 {
     font-size: 16px;
 }
 
-p{
+p {
     font-size: 14px;
 }
-.container{
+
+.container {
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -113,14 +116,14 @@ p{
    
 
 
-.sky{
+.sky {
     background-color: rgb(9, 29, 77);
     height: 80px;
     display: flex;
     align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,44 +131,47 @@ p{
     width: 100%;
 }
 
-.text h5{
+.text h5 {
     color: white;
     font-weight: 700;
 }
 
-.text p{
+.text p {
     color: white;
     font-weight: 400;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.menu a{
+.menu a {
     color: white;
     text-decoration: none;
 }
 
-.login a{
+.login a {
     color: white;
     text-decoration: none;
 }
 
 .book {
-height: 60px;
-width: 200px;
-background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
-border-radius: 10px;
-padding: 20px;
-color: black;
+    height: 60px;
+    width: 200px;
+    background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
     height: 42px;
- width: 100%;
- max-width: 1410px;
+    width: 100%;
+    max-width: 1410px;
 }
+
+.teksti {
+    color: white;
 .teksti{
     color:white;
     display: flex;
@@ -173,6 +179,7 @@ color: black;
     padding-top: 10px;
 }
 
+.container1 {
 
 
 
@@ -352,288 +359,104 @@ h1 {
 
 
 
+.arrive p {
+    color: #C7A45A;
+    margin-bottom: 10px;
+}
 
+.arrive h1 {
+    color: white;
+    margin-bottom: 25px;
+}
 
-* {
-    margin: 0;
-    padding: 0;
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+}
+
+.swiper-slide {
+    position: relative;
+    height: 353px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.swiper-slide span {
+    position: absolute;
+    right: -5px;
+    color: white;
+    background-color: #850404;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.swiper-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px 10px;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(110deg, #26394c, #242629);
+.img {
+    margin-top: -20px;
+}
+
+.img img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #C7A45A;
+    background-color: #060D16;
+    padding: 5px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+.swiper-text h5 {
     color: white;
-}
-
-.container {
-    width: 92%;
-    max-width: 1500px;
-    margin: 35px auto;
-}
-
-.small-title {
-    color: #c49a43;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 18px;
-}
-
-h1 {
-    font-size: 58px;
-    margin-bottom: 30px;
-}
-
-.cards {
-    display: flex;
-    gap: 20px;
-}
-
-.silver,
-.gold,
-.black {
-    flex: 1;
-    min-height: 520px;
-    padding: 30px 28px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    position: relative;
-}
-
-.black {
-    background: rgba(130, 105, 57, 0.20);
-    border: 1px solid #9c7c3e;
-}
-
-h4 {
-    color: #c49a43;
-    font-size: 15px;
-    margin-bottom: 22px;
-}
-
-h2 {
-    font-size: 46px;
-    margin-bottom: 42px;
-}
-
-.cards p {
-    color: #b9c1cc;
-    font-size: 17px;
-    margin-bottom: 22px;
-    line-height: 1.5;
-}
-
-ul {
-    padding-left: 25px;
-    color: #c5cbd3;
     font-size: 16px;
-    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 8px 0;
 }
 
-button {
-    position: absolute;
-    bottom: 30px;
-    left: 28px;
-    padding: 13px 25px;
-    background: transparent;
-    color: white;
-    border: 1px solid #8c7549;
+.swiper-text p {
+    color: #C7A45A;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px 0 10px;
+}
+
+.rent {
+    background: rgba(255, 253, 246, 0.13);
+    border: 1px solid #B48A3A;
     border-radius: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #8c7549;
-}
-.container{
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 103px;
-    width: 100%;
-    max-width: 1150px;
-    gap: 10px;
-    background-color: #111a29;
-    border-radius: 10px;
-    border: 1px solid white;
-    padding: 0 20px;
-}
-
-.form input{
-    width: 175px;
-    height: 46px;
-    border-radius: 10px;
-    border: 1px solid rgb(97, 95, 95);
-    padding: 0 10px;
-    font-size: 12px;
-    background-color: rgba(255, 255, 255, 0.207);
-    color: #787878;
-}
-
-.form select{
-    width: 175px;
-    height: 46px;
-    border-radius: 10px;
-    border: 1px solid rgb(97, 95, 95);
-    padding: 0 10px;
-    font-size: 12px;
-    background-color: rgba(255, 255, 255, 0.207);
-    color: #787878;
-}
-
-.form label{
-    font-size: 12px;
-    color: #fdf9f9;
-    position: relative;
-    bottom: 5px;
-}
-
-.btn{
-width: 175px;
-height: 40px;
-background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
-box-shadow: 0px 5px 4px rgba(199, 164, 90, 0.25);
-border-radius: 10px;
-text-align: center;
-text-decoration: none;
-color: black;
-padding: 25px 15px 0px 15px;
-}
-
-.need a{
-    height: 50px;
-    width: 360px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: #111a29;
-    border-radius: 50px;
-    border: 1px solid white;
+    text-align: center;
     text-decoration: none;
     color: white;
+    padding: 7px 18px;
+    font-size: 12px;
 }
 
-.emergency{
-    background-color: #F2D78B;
-    height: 30px;
-    width: 150px;
-    color: black;
-    padding: 10px 8px 0px 10px;
-    border-radius: 50px;
-}
 
-.private{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1330px;
-    gap: 25px;
-    padding: 50px 0px 20px 0px;
-}
 
-.privatee{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1330px;
-    gap: 25px;
-    padding: 0px 0px 20px 0px;
-}
 
-.personal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1330px;
-    gap: 25px;
-    padding: 0px 0px 20px 0px;
-}
-
-.private1{
-background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 20px;
-height: 200px;
-width: 250px;
-padding: 28px;
-}
-
-.private2{
-background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 20px;
-height: 200px;
-width: 250px;
-padding: 25px;
-}
-
-.private3{
-background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 20px;
-height: 200px;
-width: 250px;
-padding: 25px;
-}
-
-.private4{
-background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 20px;
-height: 200px;
-width: 250px;
-padding: 25px;
-}
-
-.number{
-    background-color: #C7A45A;
-    border-radius: 10px;
-    height: 100px;
-    width: 100px;
-    padding: 12px;
-    color: #0B1A2B;
-}
-
-.private h5{
-    color: white;
-    font-weight: 700;
-    padding: 25px 0px 25px 0px;
-}
-
-.private p{
-    color: rgb(178, 176, 176);
-    font-weight: 400;
-    max-width: 180px;
-}
-
-.privatee h5{
-    color: white;
-    font-weight: 700;
-    padding: 25px 0px 25px 0px;
-}
-
-.privatee p{
-    color: rgb(178, 176, 176);
-    font-weight: 400;
-}
-
-.personal h5{
-    color: white;
-    font-weight: 700;
-    padding: 25px 0px 25px 0px;
-}
-
-.personal p{
-    color: rgb(178, 176, 176);
-    font-weight: 400;
-}

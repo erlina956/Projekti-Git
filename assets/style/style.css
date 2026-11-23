@@ -351,6 +351,101 @@ h1 {
 
 
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(110deg, #26394c, #242629);
+    color: white;
+}
+
+.container {
+    width: 92%;
+    max-width: 1500px;
+    margin: 35px auto;
+}
+
+.small-title {
+    color: #c49a43;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.silver,
+.gold,
+.black {
+    flex: 1;
+    min-height: 520px;
+    padding: 30px 28px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+}
+
+.black {
+    background: rgba(130, 105, 57, 0.20);
+    border: 1px solid #9c7c3e;
+}
+
+h4 {
+    color: #c49a43;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 46px;
+    margin-bottom: 42px;
+}
+
+.cards p {
+    color: #b9c1cc;
+    font-size: 17px;
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 25px;
+    color: #c5cbd3;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+button {
+    position: absolute;
+    bottom: 30px;
+    left: 28px;
+    padding: 13px 25px;
+    background: transparent;
+    color: white;
+    border: 1px solid #8c7549;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8c7549;
 .container{
     padding-left: 60px;
     padding-right: 60px;

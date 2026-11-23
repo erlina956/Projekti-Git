@@ -171,14 +171,16 @@ p {
 }
 
 .teksti {
-    color: white;
-}
+    color: white;}
 .teksti{
     color:white;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 }
+
+
+
 
 .plane{
  background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);

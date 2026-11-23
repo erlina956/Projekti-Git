@@ -168,12 +168,33 @@ color: black;
  max-width: 1410px;
 }
 .teksti{
-    color: white;
+    color:white;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 }
 
+
+
+
+.plane{
+ background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+padding: 30px;
+margin: 0 auto;
+width: 100%;
+
+}
+
+.test {
+
+background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+
+}
+.avionet {
+    max-width: 1100px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
 .avionet {
     width: 85%;
     margin: 30px auto;
@@ -195,6 +216,14 @@ color: black;
 .avionet .avion {
     display: flex;
     flex-direction: row;
+background: #1D232D;
+
+
+    border-radius: 15px;
+    overflow: hidden;
+    height: 195px;
+    margin-bottom: 15px;
+    
     background-color: #1d2633;
     border-radius: 12px;
     overflow: hidden;
@@ -322,65 +351,7 @@ h1 {
 }
 
 
-.every{
-background: linear-gradient(90deg, #08192D 20.19%, rgba(5, 8, 13, 0.8) 100%);
 
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.highlight{
-    color: #C7A45A;
-}
-
-.every h1{
-    color: white;
-}
-
-.complete, .personal{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    color: white;
-    padding: 30px 0px 0px 0px;
-}
-
-.flight, .airport, .private, .luxury{
-    height: 129px;
-    width: 286px;
-    padding: 15px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    background-color:rgba(255, 255, 255, 0.07);
-}
-
-.circle{
-    height: 40px;
-    width: 40px;
-    background: radial-gradient(circle, #C7A45A 15%, rgba(199, 164, 90, 0.244) 75%);
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.travel{
-background: linear-gradient(90deg, rgba(8, 25, 45, 0.85) 0%, rgba(5, 8, 13, 0.85) 73.08%);
-
-}
-
-.all{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    max-width: 1330px;
-}
-
-.complete p{
-    color: #C7A45A;
-}
-
-.complete h1{
-    color: white;
 }
 
 .need a{

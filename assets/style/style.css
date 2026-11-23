@@ -41,9 +41,7 @@ box{
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 .grup {
     width: 100%;
@@ -127,6 +125,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 130px;
+    width: 100%;
 }
 
 .text h5{
@@ -168,12 +167,33 @@ color: black;
  max-width: 1410px;
 }
 .teksti{
-    color: white;
+    color:white;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
 }
 
+
+
+
+.plane{
+ background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+padding: 30px;
+margin: 0 auto;
+width: 100%;
+
+}
+
+.test {
+
+background: linear-gradient(180deg, #161F2B 0%, #060D16 26.44%);
+
+}
+.avionet {
+    max-width: 1100px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
 .avionet {
     width: 85%;
     margin: 30px auto;
@@ -195,6 +215,14 @@ color: black;
 .avionet .avion {
     display: flex;
     flex-direction: row;
+background: #1D232D;
+
+
+    border-radius: 15px;
+    overflow: hidden;
+    height: 195px;
+    margin-bottom: 15px;
+    
     background-color: #1d2633;
     border-radius: 12px;
     overflow: hidden;
@@ -418,4 +446,192 @@ button {
 
 button:hover {
     background: #8c7549;
+.container{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103px;
+    width: 100%;
+    max-width: 1150px;
+    gap: 10px;
+    background-color: #111a29;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0 20px;
+}
+
+.form input{
+    width: 175px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 95, 95);
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.207);
+    color: #787878;
+}
+
+.form select{
+    width: 175px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 95, 95);
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.207);
+    color: #787878;
+}
+
+.form label{
+    font-size: 12px;
+    color: #fdf9f9;
+    position: relative;
+    bottom: 5px;
+}
+
+.btn{
+width: 175px;
+height: 40px;
+background: linear-gradient(90deg, #F2D78B 0%, #B48A3A 100%);
+box-shadow: 0px 5px 4px rgba(199, 164, 90, 0.25);
+border-radius: 10px;
+text-align: center;
+text-decoration: none;
+color: black;
+padding: 25px 15px 0px 15px;
+}
+
+.need a{
+    height: 50px;
+    width: 360px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #111a29;
+    border-radius: 50px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.emergency{
+    background-color: #F2D78B;
+    height: 30px;
+    width: 150px;
+    color: black;
+    padding: 10px 8px 0px 10px;
+    border-radius: 50px;
+}
+
+.private{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    gap: 25px;
+    padding: 50px 0px 20px 0px;
+}
+
+.privatee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    gap: 25px;
+    padding: 0px 0px 20px 0px;
+}
+
+.personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1330px;
+    gap: 25px;
+    padding: 0px 0px 20px 0px;
+}
+
+.private1{
+background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+height: 200px;
+width: 250px;
+padding: 28px;
+}
+
+.private2{
+background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+height: 200px;
+width: 250px;
+padding: 25px;
+}
+
+.private3{
+background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+height: 200px;
+width: 250px;
+padding: 25px;
+}
+
+.private4{
+background: linear-gradient(180deg, #1C2838 0%, #172231 50%, #0D141F 100%);
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+height: 200px;
+width: 250px;
+padding: 25px;
+}
+
+.number{
+    background-color: #C7A45A;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+    color: #0B1A2B;
+}
+
+.private h5{
+    color: white;
+    font-weight: 700;
+    padding: 25px 0px 25px 0px;
+}
+
+.private p{
+    color: rgb(178, 176, 176);
+    font-weight: 400;
+    max-width: 180px;
+}
+
+.privatee h5{
+    color: white;
+    font-weight: 700;
+    padding: 25px 0px 25px 0px;
+}
+
+.privatee p{
+    color: rgb(178, 176, 176);
+    font-weight: 400;
+}
+
+.personal h5{
+    color: white;
+    font-weight: 700;
+    padding: 25px 0px 25px 0px;
+}
+
+.personal p{
+    color: rgb(178, 176, 176);
+    font-weight: 400;
 }
